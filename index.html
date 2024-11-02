@@ -61,6 +61,7 @@
           <button type="button" class="main-button">Order Service</button>
         </div>
       </section>
+
       <section class="advantages-page">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
@@ -122,50 +123,17 @@
           <ul class="team-list">
             <li class="team-list-background">
               <img
+                srcset="
+                  ./images/markguerrero.jpg    1x,
+                  ./images/markguerrero-x2.jpg 2x
+                "
                 src="./images/markguerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
               />
               <div class="team-intrud">
-                <h3 class="list-title">Mark Guerrero</h3>
-                <p class="list-text">Product Designer</p>
-                <ul class="social-our-team">
-                  <li class="social-our-team-list">
-                    <a href="https://www.instagram.com/" class="team-soc-link">
-                      <svg class="team-icons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram" />
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-our-team-list">
-                    <a href="https://x.com/" class="team-soc-link">
-                      <svg class="team-icons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twit" />
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-our-team-list">
-                    <a href="https://www.facebook.com/" class="team-soc-link">
-                      <svg class="team-icons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook" />
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-our-team-list">
-                    <a href="https://www.linkedin.com/" class="team-soc-link">
-                      <svg class="team-icons" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin" />
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-list-background">
-              <img src="./images/tomford.jpg" alt="Tom Ford" width="264" />
-              <div class="team-intrud">
-                <h3 class="list-title">Tom Ford</h3>
-                <p class="list-text">Frontend Developer</p>
+                <h3 class="team-list-title">Mark Guerrero</h3>
+                <p class="team-list-text">Product Designer</p>
                 <ul class="social-our-team">
                   <li class="social-our-team-list">
                     <a href="https://www.instagram.com/" class="team-soc-link">
@@ -200,13 +168,59 @@
             </li>
             <li class="team-list-background">
               <img
+                srcset="./images/tomford.jpg 1x, ./images/tomford-x2.jpg 2x"
+                src="./images/tomford.jpg"
+                alt="Tom Ford"
+                width="264"
+              />
+              <div class="team-intrud">
+                <h3 class="team-list-title">Tom Ford</h3>
+                <p class="team-list-text">Frontend Developer</p>
+                <ul class="social-our-team">
+                  <li class="social-our-team-list">
+                    <a href="https://www.instagram.com/" class="team-soc-link">
+                      <svg class="team-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-our-team-list">
+                    <a href="https://x.com/" class="team-soc-link">
+                      <svg class="team-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twit" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-our-team-list">
+                    <a href="https://www.facebook.com/" class="team-soc-link">
+                      <svg class="team-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-our-team-list">
+                    <a href="https://www.linkedin.com/" class="team-soc-link">
+                      <svg class="team-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin" />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-list-background">
+              <img
+                srcset="
+                  ./images/camilagarcia.jpg    1x,
+                  ./images/camilagarcia-x2.jpg 2x
+                "
                 src="./images/camilagarcia.jpg"
                 alt="Camila Garcia"
                 width="264"
               />
               <div class="team-intrud">
-                <h3 class="list-title">Camila Garcia</h3>
-                <p class="list-text">Marketing</p>
+                <h3 class="team-list-title">Camila Garcia</h3>
+                <p class="team-list-text">Marketing</p>
                 <ul class="social-our-team">
                   <li class="social-our-team-list">
                     <a href="https://www.instagram.com/" class="team-soc-link">
@@ -241,13 +255,17 @@
             </li>
             <li class="team-list-background">
               <img
+                srcset="
+                  ./images/danielwilson.jpg    1x,
+                  ./images/danielwilson-x2.jpg 2x
+                "
                 src="./images/danielwilson.jpg"
                 alt="Daniel Wilson"
                 width="264"
               />
               <div class="team-intrud">
-                <h3 class="list-title">Daniel Wilson</h3>
-                <p class="list-text">UI Designer</p>
+                <h3 class="team-list-title">Daniel Wilson</h3>
+                <p class="team-list-text">UI Designer</p>
                 <ul class="social-our-team">
                   <li class="social-our-team-list">
                     <a href="https://www.instagram.com/" class="team-soc-link">
@@ -289,11 +307,35 @@
           <ul class="portfolio-list">
             <li class="portfolio-list-li">
               <div class="portfolio-wrapper">
-                <img
-                  src="./images/bankingapp.jpg"
-                  alt="Banking App"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/bankingapp.jpg    1x,
+                      ./images/bankingapp-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/bankingapp-tab.jpg    1x,
+                      ./images/bankingapp-tab-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/bankingapp-desk.jpg    1x,
+                      ./images/bankingapp-desk-2x.jpg 2x
+                    "
+                    media="(max-width: 1158px)"
+                  />
+                  <img
+                    src="./images/bankingapp.jpg"
+                    alt="Banking App"
+                    width="360"
+                  />
+                </picture>
+
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -302,17 +344,41 @@
               </div>
 
               <div class="portfolio-cont">
-                <h3 class="list-title">Banking App</h3>
-                <p class="list-text">App</p>
+                <h3 class="port-list-title">Banking App</h3>
+                <p class="port-list-text">App</p>
               </div>
             </li>
             <li class="portfolio-list-li">
               <div class="portfolio-wrapper">
-                <img
-                  src="./images/cashlesspayment.jpg"
-                  alt="cashlesspayment"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/cashlesspayment.jpg    1x,
+                      ./images/cashlesspayment-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/cashlesspayment-tab.jpg    1x,
+                      ./images/cashlesspayment-tab-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/cashlesspayment-desk.jpg    1x,
+                      ./images/cashlesspayment-desk-2x.jpg 2x
+                    "
+                    media="(max-width: 1158px)"
+                  />
+                  <img
+                    src="./images/cashlesspayment.jpg"
+                    alt="Banking App"
+                    width="360"
+                  />
+                </picture>
+
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -320,17 +386,41 @@
                 </p>
               </div>
               <div class="portfolio-cont">
-                <h3 class="list-title">Cashless Payment</h3>
-                <p class="list-text">Marketing</p>
+                <h3 class="port-list-title">Cashless Payment</h3>
+                <p class="port-list-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-list-li">
               <div class="portfolio-wrapper">
-                <img
-                  src="./images/maditationapp.jpg"
-                  alt="maditationapp"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/maditationapp.jpg    1x,
+                      ./images/maditationapp-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/maditationapp-tab.jpg    1x,
+                      ./images/maditationapp-tab-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/maditationapp-desk.jpg    1x,
+                      ./images/maditationapp-desk-2x.jpg 2x
+                    "
+                    media="(max-width: 1158px)"
+                  />
+                  <img
+                    src="./images/maditationapp.jpg"
+                    alt="Banking App"
+                    width="360"
+                  />
+                </picture>
+
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -338,17 +428,41 @@
                 </p>
               </div>
               <div class="portfolio-cont">
-                <h3 class="list-title">Meditation App</h3>
-                <p class="list-text">App</p>
+                <h3 class="port-list-title">Meditation App</h3>
+                <p class="port-list-text">App</p>
               </div>
             </li>
             <li class="portfolio-list-li">
               <div class="portfolio-wrapper">
-                <img
-                  src="./images/taxiservice.jpg"
-                  alt="taxiservice"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/taxiservice.jpg    1x,
+                      ./images/taxiservice-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/taxiservice-tab.jpg    1x,
+                      ./images/taxiservice-tab-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/taxiservice-desk.jpg    1x,
+                      ./images/taxiservice-desk-2x.jpg 2x
+                    "
+                    media="(max-width: 1158px)"
+                  />
+                  <img
+                    src="./images/taxiservice.jpg"
+                    alt="Banking App"
+                    width="360"
+                  />
+                </picture>
+
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -356,17 +470,41 @@
                 </p>
               </div>
               <div class="portfolio-cont">
-                <h3 class="list-title">Taxi Service</h3>
-                <p class="list-text">Marketing</p>
+                <h3 class="port-list-title">Taxi Service</h3>
+                <p class="port-list-text">Marketing</p>
               </div>
             </li>
             <li class="portfolio-list-li">
               <div class="portfolio-wrapper">
-                <img
-                  src="./images/screenillustrations.jpg"
-                  alt="screenillustrations"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/screenillustrations.jpg    1x,
+                      ./images/screenillustrations-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/screenillustrations-tab.jpg    1x,
+                      ./images/screenillustrations-tab-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/screenillustrations-desk.jpg    1x,
+                      ./images/screenillustrations-desk-2x.jpg 2x
+                    "
+                    media="(max-width: 1158px)"
+                  />
+                  <img
+                    src="./images/screenillustrations.jpg"
+                    alt="Banking App"
+                    width="360"
+                  />
+                </picture>
+
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -374,17 +512,41 @@
                 </p>
               </div>
               <div class="portfolio-cont">
-                <h3 class="list-title">Screen Illustrations</h3>
-                <p class="list-text">Design</p>
+                <h3 class="port-list-title">Screen Illustrations</h3>
+                <p class="port-list-text">Design</p>
               </div>
             </li>
             <li class="portfolio-list-li">
               <div class="portfolio-wrapper">
-                <img
-                  src="./images/onlinecourses.jpg"
-                  alt="onlinecourses"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/onlinecourses.jpg    1x,
+                      ./images/onlinecourses-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/onlinecourses-tab.jpg    1x,
+                      ./images/onlinecourses-tab-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/onlinecourses-desk.jpg    1x,
+                      ./images/onlinecourses-desk-2x.jpg 2x
+                    "
+                    media="(max-width: 1158px)"
+                  />
+                  <img
+                    src="./images/onlinecourses.jpg"
+                    alt="Banking App"
+                    width="360"
+                  />
+                </picture>
+
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -392,8 +554,8 @@
                 </p>
               </div>
               <div class="portfolio-cont">
-                <h3 class="list-title">Online Courses</h3>
-                <p class="list-text">Marketing</p>
+                <h3 class="port-list-title">Online Courses</h3>
+                <p class="port-list-text">Marketing</p>
               </div>
             </li>
           </ul>
@@ -401,9 +563,9 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-cont">
+      <div class="container">
         <div class="footer-logo-cont">
-          <a href="./index.html" class="logo footer-logo"
+          <a href="./index.html" class="footer-logo"
             >Web<span class="span-footer-logo">Studio</span></a
           >
           <p class="footer-text">
@@ -465,7 +627,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-icons" width="8" height="8">
